@@ -48,7 +48,7 @@ def searchdictionary(count,inputlist):
 """
 def gettotal():
 	
-	apikey={1HVzlSqwxT1f6vOult1W3qZuGhneOjZk5r83KrlvNIK8}
+	apikey={https://docs.google.com/spreadsheets/d/1HVzlSqwxT1f6vOult1W3qZuGhneOjZk5r83KrlvNIK8/edit?usp=sharing}
 	getvalueurl='https://docs.google.com/spreadsheets/d/1HVzlSqwxT1f6vOult1W3qZuGhneOjZk5r83KrlvNIK8/edit?usp=sharing' % (apikey)
 	res = requests.get(getvalueurl)
 	data = res.content
